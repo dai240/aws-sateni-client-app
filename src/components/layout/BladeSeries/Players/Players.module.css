@@ -1,0 +1,17 @@
+.players {
+    margin-bottom: 20px;
+  }
+  
+  .sectionTitle {
+    font-size: 2em;
+    margin-top: 30px;
+    color: #2C3E50;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+  }
+  
+  .sectionContent {
+    margin: 20px 0;
+    line-height: 1.6;
+  }
+  
