@@ -1,5 +1,5 @@
 import React from 'react';
-import TimelineItem from '../../../common/TimelineItem';
+import TimelineItem from '../../../components/common/TimelineItem';
 
 const historyData = [
   { year: '2008年', description: '初代「K Blade」がオレンジ色で登場。ノバク・ジョコビッチとジョー・ウィルフリード・ツォンガが使用。' },

@@ -1,0 +1,17 @@
+:root {
+    --primary-color: #3490dc;
+    --secondary-color: #ffed4a;
+    --font-family-main: 'Roboto', sans-serif;
+  }
+  
+  /* テーマカラーを使用したスタイル */
+  .btn-primary {
+    background-color: var(--primary-color);
+    color: #fff;
+  }
+  
+  .btn-secondary {
+    background-color: var(--secondary-color);
+    color: #000;
+  }
+  

@@ -1,12 +1,15 @@
 import React from 'react';
-import BladeSeries from './pages/Wilson/BladeSeries';
+import { Routes, Route } from 'react-router-dom';
+import TopPage from './pages/TopPage';
+import BladeSeries from './pages/Wilson/BladeSeries/BladeSeries';
 
 const App: React.FC = () => {
   return (
-    <div className="App">
-      <BladeSeries />
-    </div>
+    <Routes>
+      <Route path="/" element={<TopPage />} />
+      <Route path="/wilson/bladeseries" element={<BladeSeries />} />
+    </Routes>
   );
-};
+}
 
 export default App;
