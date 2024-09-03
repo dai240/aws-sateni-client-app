@@ -1,12 +1,12 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import TopPage from './pages/TopPage';
-import BladeSeries from './pages/Wilson/BladeSeries/BladeSeries';
+import HomePage from './pages/HomePage';
+import BladeSeries from './pages/tennis/wilson/bladeSeries/BladeSeries';
 
 const App: React.FC = () => {
   return (
     <Routes>
-      <Route path="/" element={<TopPage />} />
+      <Route path="/" element={<HomePage />} />
       <Route path="/wilson/bladeseries" element={<BladeSeries />} />
     </Routes>
   );

@@ -1,5 +1,5 @@
 import React from 'react';
-import TimelineItem from '../../../components/common/TimelineItem';
+import TimelineItem from '../../../../components/common/TimelineItem';
 
 const historyData = [
   { year: '2008年', description: '初代「K Blade」がオレンジ色で登場。ノバク・ジョコビッチとジョー・ウィルフリード・ツォンガが使用。' },
@@ -16,7 +16,7 @@ const History: React.FC = () => {
   return (
     <section className="mb-5">
       <h2 className="text-3xl font-black my-8 text-gray-600 border-b pb-1 border-gray-300">歴史</h2>
-      <div className="flex justify-center items-center ml-1 my-3 relative">
+      <div className="flex justify-start items-center ml-5 my-3 relative">
         <ul className="relative before:absolute before:content-[''] before:w-4 before:h-full before:bg-gray-200 before:left-0 before:top-0 before:rounded-full">
           {historyData.map((item, index) => (
             <TimelineItem key={index} year={item.year} description={item.description} index={index + 1} />
